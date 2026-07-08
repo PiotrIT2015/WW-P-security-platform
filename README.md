@@ -1,40 +1,140 @@
-## OS-WW-P-1[security]
+# WW-P Security Platform
 
-## Table of contents
-* [General info](#general-info)
-* [Running](#running)
-* [Technologies](#technologies)
+## Table of Contents
 
-## General info
-A simple OS simulation with desktop.
+- [Overview](#overview)
+- [Components](#components)
+- [Installation](#installation)
+- [Running](#running)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Future Development](#future-development)
 
-1. **Web Explorer**
-WhiteDwarf is an advanced search engine project that expands upon the foundational concepts of a basic version I previously developed in Java.
-The initial Java prototype served as a proof-of-concept during my academic studies and was successfully presented at several university and 
-local tech conferences, showcasing my early work in information retrieval systems.
-This current iteration, WhiteDwarf, is being developed in Python and aims to tackle more complex challenges in search engine design. 
-It focuses on implementing more sophisticated indexing algorithms, improving search result relevance through advanced ranking mechanisms, 
-and exploring efficient methods for handling larger datasets. The goal is to create a robust and scalable search solution.
-The application is a website whose main function is to run the web crawling process (automatic browsing and analysis of websites).
+---
 
-2. **Witchcraft**
-It is a clone of Youtube. To use it you have to download project 'RelaxationTube' from repository.
+# Overview
 
-3. **PCAAnalyzer**
-As part of the master's thesis, was created a web application that analyzes data from many files, ending a presentation data on the charts. 
-There was implemented a statistical algorithm (PCA) for data analysis. Asynchronous communication, enabled by the framework, 
-allows for the interaction of computer units and manipulation of shared data.
+**OS-WW-P-1: Security** is a lightweight operating system simulation environment with a graphical desktop interface.
 
-3. **PandasAnalyzer**
-As part of the project, a python script was commissioned to compare CSV files. These are large files, up to several hundred thousand lines 
-in length.
+The project combines multiple independent applications focused on:
 
-4. **NetworkMonitor**
-I've always would like to implement this project in Java since the university. Unfortunately those days there wasn't such a great 
-tools i.e.chatGPT . It is only a shortcut to run a file[*.jar] . 
+- cybersecurity,
+- information retrieval,
+- data analysis,
+- network monitoring,
+- web technologies,
+- automation.
 
-## Running
+The main goal of the project is to create a unified environment where different research and engineering prototypes can be executed and tested.
 
+---
+
+# Components
+
+## 1. Web Explorer (WhiteDwarf)
+
+**WhiteDwarf** is an advanced search engine project focused on web crawling, indexing, and information retrieval.
+
+The project extends the initial Java prototype created during academic studies. The original version was developed as a proof-of-concept and presented at university and local technology conferences.
+
+The current Python-based implementation focuses on:
+
+- automated web crawling,
+- website content analysis,
+- search indexing,
+- ranking algorithms,
+- improved search relevance,
+- scalable data processing.
+
+The main purpose of the application is to automatically browse and analyze websites, creating a searchable knowledge base.
+
+---
+
+## 2. Witchcraft
+
+**Witchcraft** is a video streaming platform inspired by YouTube.
+
+The application provides functionality similar to a video hosting service.
+
+To run this module, download the following project:
+
+**RelaxationTube**
+
+The project provides the required video platform functionality.
+
+---
+
+## 3. PCAAnalyzer
+
+**PCAAnalyzer** is a web-based data analysis application created as part of a master's thesis.
+
+The application allows users to:
+
+- upload multiple datasets,
+- analyze large collections of data,
+- perform statistical processing,
+- visualize results using charts.
+
+Implemented functionality:
+
+- Principal Component Analysis (**PCA**) algorithm,
+- asynchronous communication,
+- interactive data manipulation,
+- visualization of multidimensional datasets.
+
+The system demonstrates practical usage of statistical algorithms in web applications.
+
+---
+
+## 4. PandasAnalyzer
+
+**PandasAnalyzer** is a Python-based data comparison tool designed for processing large CSV datasets.
+
+The application was created to compare CSV files containing hundreds of thousands of records.
+
+Main features:
+
+- efficient CSV processing,
+- large dataset comparison,
+- automated difference detection,
+- data analysis using Python libraries.
+
+---
+
+## 5. NetworkMonitor
+
+**NetworkMonitor** is a network analysis and monitoring tool.
+
+The project idea originated during university studies, where implementing such a solution in Java was one of the planned objectives.
+
+The current version provides a simplified execution environment through a Java `.jar` application.
+
+Main purpose:
+
+- network diagnostics,
+- monitoring experiments,
+- security-related analysis.
+
+---
+
+# Installation and Running
+
+## Microsoft Windows
+
+### Requirements
+
+- Windows operating system
+- Python 3.10+
+- XAMPP or equivalent Apache/MySQL environment
+- Nmap
+
+---
+
+### Installation Steps
+
+Install Python:
+
+```
 **MS Windows**
 
 1. `winget install Python.Python.3.10`(via cmd)
