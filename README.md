@@ -157,6 +157,7 @@ Project is created with:
 * python version: 3.10
 ...,but project also use:
 
+```
 
 ![image alt](https://github.com/PiotrIT2015/OS-WW-P/blob/master/screenshot.jpeg?raw=true)
 
