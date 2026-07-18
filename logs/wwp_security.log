@@ -1,0 +1,9 @@
+2026-07-17 00:08:47,591 | INFO | Starting WW-P Security Platform
+2026-07-17 00:08:51,721 | ERROR | MySQL error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2026-07-17 00:08:52,174 | INFO | GUI initialized
+2026-07-17 00:28:28,511 | INFO | Starting WW-P Security Platform
+2026-07-17 00:28:32,612 | ERROR | MySQL error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2026-07-17 00:28:33,065 | INFO | GUI initialized
+2026-07-17 00:32:22,845 | INFO | Starting WW-P Security Platform
+2026-07-17 00:32:27,191 | ERROR | MySQL error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2026-07-17 00:32:27,642 | INFO | GUI initialized
