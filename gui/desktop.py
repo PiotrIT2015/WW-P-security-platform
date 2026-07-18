@@ -58,7 +58,7 @@ class Desktop:
         self.network_app = NetworkApp()
         self.web_app = WebApp()
         self.file_explorer = FileExplorer()
-        self.settings_app = SettingsApp()
+        self.settings = SettingsApp()
         self.pca_analyzer = PCAAnalyzer()
 
 
